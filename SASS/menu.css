@@ -1,0 +1,254 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0px;
+  border: 0px;
+  font-size: 100%;
+}
+
+h1, h2 {
+  font-family: "Open Sans";
+  font-size: 60px;
+  font-weight: 300;
+  color: #393939;
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-size: 33px;
+  font-weight: 300;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hotdrink__para--section {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+button {
+  background-color: #5BACC3;
+  color: #FFF;
+  border: #5BACC3;
+  font-size: 21px;
+  font-weight: 400;
+  width: 180px;
+  padding: 20px 20px 20px 20px;
+}
+
+.main__card--secprice {
+  font-size: 33px;
+  font-weight: 300;
+  color: #5BACC3;
+  font-weight: bolder;
+}
+
+.main__discount {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.buttonborder {
+  width: 180px;
+  height: 60px;
+  border: 2px solid #393939;
+  position: relative;
+  bottom: 75px;
+  right: 15px;
+}
+
+.buttonborder:active {
+  position: relative;
+  bottom: 60px;
+  right: 0px;
+}
+
+.buttoncontainer1 {
+  margin-top: 40px;
+}
+
+.imgborder {
+  border: 5px solid #5BACC3;
+}
+
+.navlink {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.menucontainer {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  background-image: url("../assets/Assets/coffee-circle.jpg");
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.menucontainer__menu {
+  font-size: 60px;
+  font-weight: 300;
+  color: #FFF;
+  background-color: #393939;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.menucontainer__menu--border {
+  border: 5px solid #5BACC3;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  top: 345px;
+  left: 775px;
+}
+
+.hotdrink {
+  background-color: #FFF0ED;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+.hotdrink__title {
+  color: #393939;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.hotdrink__title--item {
+  color: #393939;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+.hotdrink__para {
+  width: 34%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 4%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+.hotdrink__para--section {
+  color: #393939;
+}
+.hotdrink__price {
+  color: #5BACC3;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.colddrink {
+  background-color: #F7F7F7;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border: none;
+}
+
+.navsec {
+  background-color: #FFF0ED;
+  padding-top: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 0px;
+  height: 120px;
+  display: flex;
+}
+.navsec__part1 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: row;
+}
+.navsec__part1--img {
+  border: none;
+  margin-right: 10px;
+  width: 50px;
+  text-decoration: none;
+}
+.navsec__part1--navhead {
+  color: #393939;
+}
+.navsec__part2 {
+  display: flex;
+  align-items: center;
+}
+.navsec__part2--about {
+  font-size: 21px;
+  font-weight: 400;
+  color: #393939;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  margin: 20px 20px 20px 20px;
+}
+.navsec__part2--menu {
+  font-size: 21px;
+  font-weight: 400;
+  color: #393939;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  margin: 20px 20px 20px 20px;
+}
+.navsec__part2--shop {
+  font-size: 21px;
+  font-weight: 400;
+  color: #5BACC3;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  margin: 20px 20px 20px 20px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #393939;
+  text-align: center;
+  height: 80px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.navbar__list {
+  font-size: 21px;
+  color: #FFF;
+  border: 4px solid #5BACC3;
+  display: flex;
+  padding: 5px 0px 5px 40px;
+  text-decoration: none;
+  margin: 20px 20px 20px 20px;
+  box-sizing: border-box;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-right-width: 0px;
+  border-left-width: 4px;
+}/*# sourceMappingURL=menu.css.map */

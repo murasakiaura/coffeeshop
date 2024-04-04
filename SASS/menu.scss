@@ -1,0 +1,212 @@
+@use './partials/global.scss' as *;
+
+
+
+@mixin border-radius($radius) {
+    border-radius:$radius;
+    margin:0;
+}
+
+@mixin display ($display) {
+    display:$display;
+}
+
+@mixin background-size($backgroundsize) {
+    background-size:$backgroundsize
+}
+
+
+.menucontainer {
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height: 700px;
+    background-image:url("../assets/Assets/coffee-circle.jpg");
+    align-items:center;
+    justify-content:center;
+    display:$display;
+
+
+&__menu{
+    font-size: 60px;
+    font-weight: 300;
+    color: $neutral-color4;
+    background-color: $neutral-color1;
+    background-size:cover;
+    width: 300px;
+    height:200px;
+    justify-content:center;
+    align-items:center;
+    display:$display;
+  
+
+&--border{
+border:5px solid $primary-color1;
+width: 300px;
+height:200px;
+display:$display;
+position:absolute;
+top:345px;
+left:775px;
+}
+}
+}
+
+
+
+.hotdrink{
+    background-color:$primary-color2;
+    border:none;
+    display:$display;
+    flex-direction:column;
+
+
+&__title{
+    color:$neutral-color1;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:20px;
+    padding-top:20px;
+    border:none;
+    display:$display;
+    justify-content:center;
+
+
+&--item{
+    color:$neutral-color1;
+    text-align:center;
+    margin-bottom:0px;
+    margin-top:0px;
+    padding-top:0px;
+    border:none;
+    display:$display;
+    justify-content:center;
+}
+}
+
+
+&__para{
+    width:34%;
+    height:20%;
+    display:$display;
+    justify-content:center;
+    text-align:center;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-left:4%;
+    padding-top:0px;
+    padding-bottom:0px;
+    text-align:center;
+
+   &--section{
+        color:$neutral-color1;
+    }
+}
+
+&__price{
+    color:$primary-color1;
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:0px;
+    padding-bottom:20px;
+    border:none;
+    display:$display;
+    justify-content:center;
+}
+}
+
+.colddrink{
+    background-color:$neutral-color3;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+    border:none;
+}
+
+.navsec{
+    background-color:$primary-color2;
+    padding-top:0px 0px 0px 20px;
+    margin:0px 0px 0px 0px;
+    height:120px;
+    display:$display;
+
+&__part1{
+    display:$display;
+    flex:1;
+    align-items:center;
+    flex-direction:row;
+
+    &--img{
+        border:none;
+        margin-right:10px;
+        width:50px;
+        text-decoration:none;  
+    }
+
+    &--navhead{
+        color:$neutral-color1;
+    }
+}
+
+&__part2{
+    display:$display;
+    align-items:center;
+
+
+&--about{
+    font-size:21px;
+    font-weight:400;
+    color:$neutral-color1;
+    padding:20px 20px 20px 20px;
+    text-decoration:none;
+    margin:20px 20px 20px 20px;
+}
+
+&--menu{
+    font-size:21px;
+    font-weight:400;
+    color:$neutral-color1;
+    padding:20px 20px 20px 20px;
+    text-decoration:none;
+    margin:20px 20px 20px 20px;
+}
+
+&--shop{
+    font-size:21px;
+    font-weight:400;
+    color:$primary-color1;
+    padding:20px 20px 20px 20px;
+    text-decoration:none;
+    margin:20px 20px 20px 20px;
+}
+}
+}
+
+.navbar{
+    width:100%;
+    background-color:$neutral-color1;
+    text-align:center;
+    height:80px;
+    box-sizing:border-box;
+    display:$display;
+    justify-content:center;
+
+&__list{
+    font-size:21px;
+    color:$neutral-color4;
+    border:4px solid #5BACC3;
+    display:$display;
+    padding:5px 0px 5px 40px;
+    text-decoration:none;
+    margin:20px 20px 20px 20px;
+    box-sizing:border-box;
+    border-top-style:none;
+    border-bottom-style:none;
+    border-right-width:0px;
+    border-left-width:4px;
+}
+
+}

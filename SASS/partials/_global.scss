@@ -1,0 +1,108 @@
+//primary color
+$primary-color1:#5BACC3;
+$primary-color2:#FFF0ED;
+
+//neutral color
+$neutral-color1:#393939;
+$neutral-color2:#909090;
+$neutral-color3:#F7F7F7;
+$neutral-color4:#FFF;
+
+
+//border radius
+$radius:5px;
+
+//display
+$display:flex;
+
+//backgroundsize
+$backgroundsize:cover;
+
+body {
+    font-family:'Open Sans';
+    font-weight: 400;
+    margin: 0px;
+	border: 0px;
+	font-size: 100%;
+}
+
+h1,h2 {
+    font-family:'Open Sans';
+    font-size:60px;
+    font-weight:300;
+    color:$neutral-color1;
+}
+
+
+h3 {
+    font-family:'Open Sans';
+    font-size:33px;
+    font-weight:300;
+}
+
+p {
+    font-family:'Open Sans';
+    font-size:18px;
+    font-weight: 400;
+}
+
+.hotdrink__para--section{
+    font-family:'Open Sans';
+    font-size:18px;
+    font-weight:400;
+    font-style: italic;
+}
+
+button {
+    background-color:$primary-color1;
+    color:$neutral-color4;
+    border:$primary-color1;
+    font-size:21px;
+    font-weight:400;
+    width:180px;
+    padding:20px 20px 20px 20px;
+}
+
+
+
+.main__card--secprice {
+    font-size:33px;
+    font-weight:300;
+    color:$primary-color1;
+    font-weight:bolder;
+}
+
+.main__discount {
+    font-size:45px;
+    font-weight:400;
+}
+
+.buttonborder{
+    width:180px;
+    height:60px;
+    border:2px solid $neutral-color1;
+    position:relative;
+    bottom:75px;
+    right:15px;
+}
+
+.buttonborder:active{
+    position:relative;
+    bottom:60px;
+    right:0px;
+}
+
+
+.buttoncontainer1{
+    margin-top:40px;
+}
+
+.imgborder{
+border:5px solid $primary-color1;
+}
+
+.navlink{
+    font-size:21px;
+    font-weight:400;
+    }
+

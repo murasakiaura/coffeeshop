@@ -1,0 +1,363 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0px;
+  border: 0px;
+  font-size: 100%;
+}
+
+h1, h2 {
+  font-family: "Open Sans";
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: "Open Sans";
+  font-size: 33px;
+  font-weight: 300;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hotdrink__para--section {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+button {
+  background-color: #5BACC3;
+  color: #FFF;
+  border: #5BACC3;
+  font-size: 21px;
+  font-weight: 400;
+  width: 180px;
+  padding: 20px 20px 20px 20px;
+}
+
+.main__card--secprice {
+  font-size: 33px;
+  font-weight: 300;
+  color: #5BACC3;
+  font-weight: bolder;
+}
+
+.main__discount {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.buttonborder {
+  width: 180px;
+  height: 60px;
+  border: 2px solid #393939;
+  position: relative;
+  bottom: 75px;
+  right: 15px;
+}
+
+.buttonborder:active {
+  position: relative;
+  bottom: 60px;
+  right: 0px;
+}
+
+.buttoncontainer1 {
+  margin-top: 40px;
+}
+
+.imgborder {
+  border: 5px solid #5BACC3;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes chameleon {
+  0% {
+    background: #393939;
+  }
+  100% {
+    background: #5BACC3;
+  }
+}
+.navsec {
+  background-color: #FFF0ED;
+  padding-top: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 0px;
+  height: 120px;
+  display: flex;
+}
+.navsec__part1 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: row;
+}
+.navsec__part1--img {
+  border: none;
+  margin-right: 10px;
+  width: 50px;
+  text-decoration: none;
+}
+.navsec__part1--navhead {
+  color: #393939;
+}
+.navsec__part2 {
+  display: flex;
+  justify-content: flex-end;
+}
+.navsec__part2--about, .navsec__part2--menu {
+  font-size: 21px;
+  font-weight: 400;
+  color: #393939;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  margin: 20px 20px 20px 20px;
+}
+.navsec__part2--shop {
+  font-size: 21px;
+  font-weight: 400;
+  color: #5BACC3;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  margin: 20px 20px 20px 20px;
+}
+
+.navintro {
+  background-color: #FFF0ED;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+.navintro__introword {
+  margin: 0px 0px 10px 80px;
+  padding: 0px 20px 80px 40px;
+}
+.navintro__introword--head {
+  color: #393939;
+  margin: 0px 0px 0px 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  text-align: center;
+  display: flex;
+}
+.navintro__img {
+  margin: 0px 200px 0px 20px;
+  padding: 20px 20px 0px 20px;
+}
+
+.main {
+  background-color: #F7F7F7;
+  margin: 0px 0px 40px 0px;
+  padding: 40px 20px 40px 20px;
+}
+.main__container {
+  display: flex;
+  flex-direction: row wrap;
+  align-items: flex-start;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main__head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__card {
+  width: 330px;
+  height: 440px;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px -1px;
+  box-shadow: rgba(0, 0, 0, 0.25);
+  margin: 40px 0px 60px 80px;
+  padding: 40px 0px 0px 0px;
+  background-color: #FFF;
+}
+.main__card--pic {
+  height: 280px;
+  margin-left: 80px;
+  padding-bottom: 0px;
+}
+.main__card--sec {
+  background-color: #FFF0ED;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px 10px 40px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.main__card--secpack {
+  font-size: 18px;
+  color: #909090;
+}
+.main__card--sec1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+.main__card--seccoffeehead {
+  color: #393939;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.main__card--secprice {
+  display: flex;
+}
+.main__card--buttoncontainer {
+  margin-left: 50%;
+}
+.main__card--button {
+  text-align: center;
+}
+
+.wecontainer {
+  margin: 20px 20px 20px 20px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.wecontainer__part1 {
+  margin: 40px 200px 0px 20px;
+  padding: 20px 20px 20px 20px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.wecontainer__part1--icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 20px 20px;
+}
+.wecontainer__part2 {
+  display: flex;
+  background-color: #FFF0ED;
+  width: 400px;
+  height: 400px;
+  background-image: url("../assets/Assets/coldbrewbackground.png");
+  background-size: cover;
+  align-items: center;
+}
+.wecontainer__part2--img {
+  position: relative;
+  margin: 0 auto;
+  animation: rotate 5s linear infinite;
+  animation-play-state: paused;
+  height: 280px;
+  display: block;
+}
+.wecontainer__part2--img:hover {
+  animation-play-state: running;
+}
+.wecontainer__part2--imgborder {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  left: -15px;
+  top: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount {
+  font-size: 45px;
+  background-color: #393939;
+  color: #FFF;
+  text-align: center;
+  width: 90%;
+  margin: 200px 60px 200px 60px;
+  padding: 60px 20px 60px 20px;
+  animation-name: chameleon;
+  animation-duration: 2.5s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+.discount__span {
+  font-weight: bold;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.footer {
+  background-color: #FFF0ED;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.footer__card {
+  margin: 20px 0px 0px 20px;
+  padding: 40px 20px 0px 20px;
+}
+.footer__card--head {
+  color: #393939;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer__card--para {
+  font-size: 18px;
+  font-weight: 400;
+  color: #393939;
+  width: 380px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.footer__card--para2 {
+  margin-top: 0px;
+}
+.footer__card--paraspan {
+  font-weight: bold;
+}
+.footer__card--icon {
+  width: 50px;
+  text-decoration: none;
+}
+.footer__icon1 {
+  width: 120px;
+  opacity: 25%;
+  position: relative;
+  left: -15px;
+}
+.footer__icon2 {
+  width: 120px;
+  opacity: 25%;
+  position: relative;
+  right: -75px;
+  top: 180px;
+}
+
+.navlink {
+  font-size: 21px;
+  font-weight: 400;
+}/*# sourceMappingURL=landing.css.map */
